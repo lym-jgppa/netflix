@@ -7,7 +7,7 @@ import Search from './Routes/Search';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/netflix">
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
